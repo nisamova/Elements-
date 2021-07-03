@@ -1,4 +1,22 @@
-import Head from 'next/head'
+import Hero from "../components/Hero"
+import Service from "../components/Service"
+import Solutions from "../components/Solutions"
+import Technology from "../components/Technology"
+
+import styles from "../styles/Home.module.css"
+
+export default function Home() {
+  return (
+    <div>
+      <Hero />
+      <Solutions />
+      <Service />
+      <Technology />
+    </div>
+  )
+}
+
+/*import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -63,3 +81,4 @@ export default function Home() {
     </div>
   )
 }
+*/
