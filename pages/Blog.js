@@ -18,7 +18,7 @@ export default function Blog({ posts }) {
   )
 }
 export async function getStaticProps() {
-  const res = await fetch("http://elements.local/graphql", {
+  const res = await fetch("", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({

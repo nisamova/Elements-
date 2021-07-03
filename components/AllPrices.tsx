@@ -240,7 +240,7 @@ export default function AllPrices({ prices }: IProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const stripe = new Stripe(process.env.STRIPE_KEY, {
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
     apiVersion: "2020-08-27"
   })
 
