@@ -26,7 +26,7 @@ export default function Header() {
             </a>
           </Link>
         </li>
-        <li className="text-black font-body text-3xl text-center pl-2">
+        <li className="text-black font-body text-3xl text-center pl-2 pt-1">
           <Link href="/">
             <a>Elements</a>
           </Link>
