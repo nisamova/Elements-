@@ -1,10 +1,11 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import { HiArrowRight } from "react-icons/hi"
 
 export default function Header() {
   return (
-    <header className="w-full">
+    <header className="w-full flex flex-row justify-between container mx-auto">
       <Head>
         <title>Elements Web Development & Design</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -29,6 +30,18 @@ export default function Header() {
         <li className="text-black font-body text-3xl text-center pl-2 pt-1">
           <Link href="/">
             <a>Elements</a>
+          </Link>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <Link href="#">
+            <a>
+              <p className="flex flex-row gap-4 font-body text-neutral text-center text-xl mb-10 border-2 p-2 rounded border-neutral">
+                Schedule&nbsp;a&nbsp;call
+                <HiArrowRight className="text-neutral mt-1 transition duration-150 ease-in-out" />
+              </p>
+            </a>
           </Link>
         </li>
       </ul>

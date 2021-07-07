@@ -1,4 +1,6 @@
 import React from "react"
+import Link from "next/link"
+import { HiArrowRight } from "react-icons/hi"
 
 function Footer() {
   return (
