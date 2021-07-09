@@ -11,16 +11,16 @@ import {
 function Solutions() {
   return (
     <>
-      <section className="p-10">
+      <section className="p-20">
         <h3 className="container mx-auto flex justify-center font-body text-4xl mb-10">
           Solutions
         </h3>
         <main className="grid grid-flow-col grid-cols-4 grid-rows-1 gap-2">
           <div className="bg-primary rounded p-2">
             <Animationlarge />
-            <p className="flex flex-row gap-4 font-body text-neutral text-center text-2xl mb-10">
+            <p className="flex flex-row gap-2 font-body text-neutral text-center text-l mb-10 border-2 p-2 rounded border-neutral">
               Schedule a call
-              <HiArrowRight className="text-neutral mt-1 transition duration-150 ease-in-out" />
+              <HiArrowRight className="text-neutral mt-1" />
             </p>
           </div>
           <div className="bg-white rounded p-10">

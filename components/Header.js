@@ -2,6 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import { HiArrowRight } from "react-icons/hi"
+import Social from "./Social"
 
 export default function Header() {
   return (
@@ -33,11 +34,12 @@ export default function Header() {
           </Link>
         </li>
       </ul>
-      <ul>
+      <Social />
+      <ul className="pt-2">
         <li>
           <Link href="#">
             <a>
-              <p className="flex flex-row gap-4 font-body text-neutral text-center text-xl mb-10 border-2 p-2 rounded border-neutral">
+              <p className="flex flex-row gap-2 font-body text-neutral text-center text-l border-2 p-2 rounded border-neutral">
                 Schedule&nbsp;a&nbsp;call
                 <HiArrowRight className="text-neutral mt-1 transition duration-150 ease-in-out" />
               </p>
